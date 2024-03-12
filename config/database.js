@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', 'store_magk'),
         user: env('DATABASE_USERNAME', 'store_magk_user'),
         password: env('DATABASE_PASSWORD', 'mLhTwypKreFVQDrVcdRRWzcMlZerqsHr'),
-        ssl: env.bool('DATABASE_SSL', true),
+        ssl: env.bool('DATABASE_SSL', false),
       },
     },
   });
